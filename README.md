@@ -40,7 +40,27 @@ popMenuView.circleButton?.duration = 0.8
 ```
 
 ###Customization
-Take a look at `Example` for more information.
+```Swift
+func circleMenu(circleMenu: CircleMenu, willDisplay button: CircleMenuButton, atIndex: Int) {
+   //set text
+   guard let textLabel = button.textLabel else {return}
+   textLabel.text = items[atIndex].text
+   
+   //set color
+   button.backgroundColor = UIColor.lightGrayColor()
+   button.setImage(UIImage(imageLiteral: items[atIndex].icon), forState: .Normal)
+   button.layer.borderWidth = 5.0
+   button.layer.borderColor = UIColor.whiteColor().CGColor
+        
+   // set highlited image
+   let highlightedImage  = UIImage(imageLiteral: items[atIndex].icon).imageWithRenderingMode(.AlwaysTemplate)
+   button.setImage(highlightedImage, forState: .Highlighted)
+   button.tintColor = UIColor.init(colorLiteralRed: 0, green: 0, blue: 0, alpha: 0.3)
+        
+}
+
+```
+Take a look at Example for more information.
 
 
 ##Install
