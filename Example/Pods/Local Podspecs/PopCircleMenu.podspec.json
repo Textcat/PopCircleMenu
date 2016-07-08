@@ -1,0 +1,19 @@
+{
+  "name": "PopCircleMenu",
+  "version": "0.1",
+  "license": "MIT",
+  "summary": "Pinterest like pop circle menu",
+  "homepage": "https://github.com/luiyezheng/PopCircleMenu",
+  "authors": {
+    "luiyezheng": "luiyezheng@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/luiyezheng/PopCircleMenu.git",
+    "tag": "0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Source",
+  "requires_arc": false
+}

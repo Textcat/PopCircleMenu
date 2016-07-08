@@ -1,0 +1,19 @@
+PODS:
+  - PopCircleMenu (0.1)
+
+DEPENDENCIES:
+  - PopCircleMenu (from `https://github.com/luiyezheng/PopCircleMenu.git`)
+
+EXTERNAL SOURCES:
+  PopCircleMenu:
+    :git: https://github.com/luiyezheng/PopCircleMenu.git
+
+CHECKOUT OPTIONS:
+  PopCircleMenu:
+    :commit: f954d33eeca77d20954d4600ba2c069638ede41c
+    :git: https://github.com/luiyezheng/PopCircleMenu.git
+
+SPEC CHECKSUMS:
+  PopCircleMenu: a70376eccd790ce3a5fa07a02fd20675a840c210
+
+COCOAPODS: 0.39.0
