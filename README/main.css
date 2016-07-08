@@ -1,0 +1,38 @@
+div#container {
+    position: absolute;
+    
+    width: 100%;
+}
+
+div#img-container {
+    display: -webkit-flex;
+    display: flex; 
+    
+    width: 100%;
+
+    position: relative;
+    
+}
+
+div#text-container {
+    margin-bottom: 20px;
+    
+    position: relative;
+}
+
+h2 {
+    width: 240px;
+    
+    display: inline;
+    margin: 0 120px 0 0;
+    text-align: center;
+}
+
+img {
+    width: 240px;
+    height: 460px;
+    
+    margin: 0 100px 0 0;
+    
+    position: relative
+}
