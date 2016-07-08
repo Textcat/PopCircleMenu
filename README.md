@@ -10,4 +10,9 @@ Pinterest like pop circle Menu
 * Customize the appearance 
 * Written in Swift
 
+##Install
+```Ruby
+
+```
+
 
