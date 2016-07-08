@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189FE9511D2F891A00947230 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FE9501D2F891A00947230 /* AppDelegate.swift */; };
+		189FE9531D2F891A00947230 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FE9521D2F891A00947230 /* ViewController.swift */; };
+		189FE9561D2F891A00947230 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189FE9541D2F891A00947230 /* Main.storyboard */; };
+		189FE9581D2F891A00947230 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189FE9571D2F891A00947230 /* Assets.xcassets */; };
+		189FE95B1D2F891A00947230 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189FE9591D2F891A00947230 /* LaunchScreen.storyboard */; };
+		189FE9661D2F891A00947230 /* PopCircleMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FE9651D2F891A00947230 /* PopCircleMenuTests.swift */; };
+		189FE97A1D2F89A700947230 /* PopCirCleMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FE9761D2F89A700947230 /* PopCirCleMenuView.swift */; };
+		189FE97B1D2F89A700947230 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FE9771D2F89A700947230 /* Utility.swift */; };
+		189FE97D1D2F8C4B00947230 /* CircleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FE97C1D2F8C4B00947230 /* CircleMenu.swift */; };
+		189FE97F1D2F8CAE00947230 /* CircleMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189FE97E1D2F8CAE00947230 /* CircleMenuButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		189FE9621D2F891A00947230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189FE9451D2F891A00947230 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189FE94C1D2F891A00947230;
+			remoteInfo = PopCircleMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		189FE94D1D2F891A00947230 /* PopCircleMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopCircleMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189FE9501D2F891A00947230 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		189FE9521D2F891A00947230 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		189FE9551D2F891A00947230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		189FE9571D2F891A00947230 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189FE95A1D2F891A00947230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		189FE95C1D2F891A00947230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189FE9611D2F891A00947230 /* PopCircleMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopCircleMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189FE9651D2F891A00947230 /* PopCircleMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopCircleMenuTests.swift; sourceTree = "<group>"; };
+		189FE9671D2F891A00947230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189FE9761D2F89A700947230 /* PopCirCleMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopCirCleMenuView.swift; sourceTree = "<group>"; };
+		189FE9771D2F89A700947230 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		189FE97C1D2F8C4B00947230 /* CircleMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleMenu.swift; sourceTree = "<group>"; };
+		189FE97E1D2F8CAE00947230 /* CircleMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleMenuButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189FE94A1D2F891A00947230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189FE95E1D2F891A00947230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189FE9441D2F891A00947230 = {
+			isa = PBXGroup;
+			children = (
+				189FE94F1D2F891A00947230 /* PopCircleMenu */,
+				189FE9641D2F891A00947230 /* PopCircleMenuTests */,
+				189FE94E1D2F891A00947230 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		189FE94E1D2F891A00947230 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189FE94D1D2F891A00947230 /* PopCircleMenu.app */,
+				189FE9611D2F891A00947230 /* PopCircleMenuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189FE94F1D2F891A00947230 /* PopCircleMenu */ = {
+			isa = PBXGroup;
+			children = (
+				189FE9701D2F899000947230 /* PopCircleMenuLib */,
+				189FE9501D2F891A00947230 /* AppDelegate.swift */,
+				189FE9521D2F891A00947230 /* ViewController.swift */,
+				189FE9541D2F891A00947230 /* Main.storyboard */,
+				189FE9571D2F891A00947230 /* Assets.xcassets */,
+				189FE9591D2F891A00947230 /* LaunchScreen.storyboard */,
+				189FE95C1D2F891A00947230 /* Info.plist */,
+			);
+			path = PopCircleMenu;
+			sourceTree = "<group>";
+		};
+		189FE9641D2F891A00947230 /* PopCircleMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				189FE9651D2F891A00947230 /* PopCircleMenuTests.swift */,
+				189FE9671D2F891A00947230 /* Info.plist */,
+			);
+			path = PopCircleMenuTests;
+			sourceTree = "<group>";
+		};
+		189FE9701D2F899000947230 /* PopCircleMenuLib */ = {
+			isa = PBXGroup;
+			children = (
+				189FE9711D2F89A700947230 /* CircleMenu */,
+				189FE9731D2F89A700947230 /* CircleMenuButton */,
+				189FE9751D2F89A700947230 /* PopCircleMenuView */,
+				189FE9771D2F89A700947230 /* Utility.swift */,
+			);
+			name = PopCircleMenuLib;
+			sourceTree = "<group>";
+		};
+		189FE9711D2F89A700947230 /* CircleMenu */ = {
+			isa = PBXGroup;
+			children = (
+				189FE97C1D2F8C4B00947230 /* CircleMenu.swift */,
+			);
+			path = CircleMenu;
+			sourceTree = "<group>";
+		};
+		189FE9731D2F89A700947230 /* CircleMenuButton */ = {
+			isa = PBXGroup;
+			children = (
+				189FE97E1D2F8CAE00947230 /* CircleMenuButton.swift */,
+			);
+			path = CircleMenuButton;
+			sourceTree = "<group>";
+		};
+		189FE9751D2F89A700947230 /* PopCircleMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				189FE9761D2F89A700947230 /* PopCirCleMenuView.swift */,
+			);
+			path = PopCircleMenuView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189FE94C1D2F891A00947230 /* PopCircleMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189FE96A1D2F891A00947230 /* Build configuration list for PBXNativeTarget "PopCircleMenu" */;
+			buildPhases = (
+				189FE9491D2F891A00947230 /* Sources */,
+				189FE94A1D2F891A00947230 /* Frameworks */,
+				189FE94B1D2F891A00947230 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopCircleMenu;
+			productName = PopCircleMenu;
+			productReference = 189FE94D1D2F891A00947230 /* PopCircleMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		189FE9601D2F891A00947230 /* PopCircleMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189FE96D1D2F891A00947230 /* Build configuration list for PBXNativeTarget "PopCircleMenuTests" */;
+			buildPhases = (
+				189FE95D1D2F891A00947230 /* Sources */,
+				189FE95E1D2F891A00947230 /* Frameworks */,
+				189FE95F1D2F891A00947230 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189FE9631D2F891A00947230 /* PBXTargetDependency */,
+			);
+			name = PopCircleMenuTests;
+			productName = PopCircleMenuTests;
+			productReference = 189FE9611D2F891A00947230 /* PopCircleMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189FE9451D2F891A00947230 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = luiyezheng;
+				TargetAttributes = {
+					189FE94C1D2F891A00947230 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					189FE9601D2F891A00947230 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 189FE94C1D2F891A00947230;
+					};
+				};
+			};
+			buildConfigurationList = 189FE9481D2F891A00947230 /* Build configuration list for PBXProject "PopCircleMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189FE9441D2F891A00947230;
+			productRefGroup = 189FE94E1D2F891A00947230 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189FE94C1D2F891A00947230 /* PopCircleMenu */,
+				189FE9601D2F891A00947230 /* PopCircleMenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189FE94B1D2F891A00947230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189FE95B1D2F891A00947230 /* LaunchScreen.storyboard in Resources */,
+				189FE9581D2F891A00947230 /* Assets.xcassets in Resources */,
+				189FE9561D2F891A00947230 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189FE95F1D2F891A00947230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189FE9491D2F891A00947230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189FE97A1D2F89A700947230 /* PopCirCleMenuView.swift in Sources */,
+				189FE97B1D2F89A700947230 /* Utility.swift in Sources */,
+				189FE9531D2F891A00947230 /* ViewController.swift in Sources */,
+				189FE97D1D2F8C4B00947230 /* CircleMenu.swift in Sources */,
+				189FE97F1D2F8CAE00947230 /* CircleMenuButton.swift in Sources */,
+				189FE9511D2F891A00947230 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189FE95D1D2F891A00947230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189FE9661D2F891A00947230 /* PopCircleMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		189FE9631D2F891A00947230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189FE94C1D2F891A00947230 /* PopCircleMenu */;
+			targetProxy = 189FE9621D2F891A00947230 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		189FE9541D2F891A00947230 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189FE9551D2F891A00947230 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		189FE9591D2F891A00947230 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189FE95A1D2F891A00947230 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189FE9681D2F891A00947230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		189FE9691D2F891A00947230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189FE96B1D2F891A00947230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PopCircleMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luiyezheng.PopCircleMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		189FE96C1D2F891A00947230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PopCircleMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luiyezheng.PopCircleMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		189FE96E1D2F891A00947230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PopCircleMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luiyezheng.PopCircleMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopCircleMenu.app/PopCircleMenu";
+			};
+			name = Debug;
+		};
+		189FE96F1D2F891A00947230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PopCircleMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luiyezheng.PopCircleMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopCircleMenu.app/PopCircleMenu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189FE9481D2F891A00947230 /* Build configuration list for PBXProject "PopCircleMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189FE9681D2F891A00947230 /* Debug */,
+				189FE9691D2F891A00947230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189FE96A1D2F891A00947230 /* Build configuration list for PBXNativeTarget "PopCircleMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189FE96B1D2F891A00947230 /* Debug */,
+				189FE96C1D2F891A00947230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		189FE96D1D2F891A00947230 /* Build configuration list for PBXNativeTarget "PopCircleMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189FE96E1D2F891A00947230 /* Debug */,
+				189FE96F1D2F891A00947230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189FE9451D2F891A00947230 /* Project object */;
+}
