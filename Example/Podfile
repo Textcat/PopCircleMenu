@@ -1,2 +1,0 @@
-use_frameworks!
-pod ‘PopCircleMenu’, :git => 'https://github.com/luiyezheng/PopCircleMenu.git'

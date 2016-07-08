@@ -17,20 +17,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ikt-ha-Fz9">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YPO-rJ-2eq" customClass="PopCirCleMenuView" customModule="PopCircleMenu">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ikt-ha-Fz9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6Tb-LV-iMt"/>
-                            <constraint firstItem="ikt-ha-Fz9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Gfn-SK-Dxc"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ikt-ha-Fz9" secondAttribute="bottom" id="Qog-jr-vVb"/>
-                            <constraint firstAttribute="trailing" secondItem="ikt-ha-Fz9" secondAttribute="trailing" id="maL-jh-uQV"/>
+                            <constraint firstItem="YPO-rJ-2eq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3dH-xL-lIf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YPO-rJ-2eq" secondAttribute="bottom" id="VdQ-ih-4qH"/>
+                            <constraint firstAttribute="trailing" secondItem="YPO-rJ-2eq" secondAttribute="trailing" id="dMd-hJ-7BO"/>
+                            <constraint firstItem="YPO-rJ-2eq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xop-7m-Hi3"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="popMenuView" destination="YPO-rJ-2eq" id="H6M-xO-n2o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

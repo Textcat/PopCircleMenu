@@ -22,7 +22,7 @@ public class CircleMenuButton: UIButton {
 
     internal var view = UIView()
 
-    internal weak var textLabel: UITextField?
+    public weak var textLabel: UITextField?
 
     // MARK: life cycle
 

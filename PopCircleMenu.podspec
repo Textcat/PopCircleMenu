@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'PopCircleMenu'
-  s.version = '0.1'
+  s.version = '0.1.1'
   s.license = 'MIT'
   s.summary = 'Pinterest like pop circle menu'
   s.homepage = 'https://github.com/luiyezheng/PopCircleMenu'

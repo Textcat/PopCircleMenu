@@ -1,6 +1,0 @@
-framework module PopCircleMenu {
-  umbrella header "PopCircleMenu-umbrella.h"
-
-  export *
-  module * { export * }
-}
