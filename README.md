@@ -12,7 +12,29 @@ Pinterest like pop circle Menu
 
 ##Install
 ```Ruby
+use_frameworks!
+pod ‘PopCircleMenu’, :git => 'https://github.com/luiyezheng/PopCircleMenu.git'
+```
 
+##Usage
+
+###Setup
+```Swift
+popMenuView.circleButton?.delegate = self
+//Buttons count
+popMenuView.circleButton?.buttonsCount = 4
+        
+//Distance between buttons and the red circle
+popMenuView.circleButton?.distance = 105
+        
+//Delay between show buttons
+popMenuView.circleButton?.showDelay = 0.03
+        
+//Animation Duration
+popMenuView.circleButton?.duration = 0.8
+```
+###Customization
+```Swift
 ```
 
 
