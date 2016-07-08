@@ -35,6 +35,41 @@ popMenuView.circleButton?.duration = 0.8
 ```
 ###Customization
 ```Swift
+func circleMenu(circleMenu: CircleMenu, willDisplay button: CircleMenuButton, atIndex: Int) {
+   //set color
+   button.backgroundColor = UIColor.lightGrayColor()
+   button.setImage(UIImage(imageLiteral: items[atIndex].icon), forState: .Normal)
+   button.layer.borderWidth = 5.0
+   button.layer.borderColor = UIColor.whiteColor().CGColor
+        
+   // set highlited image
+   let highlightedImage  = UIImage(imageLiteral: items[atIndex].icon).imageWithRenderingMode(.AlwaysTemplate)
+   button.setImage(highlightedImage, forState: .Highlighted)
+   button.tintColor = UIColor.init(colorLiteralRed: 0, green: 0, blue: 0, alpha: 0.3)
+        
+   //set text
+   guard let textLabel = button.textLabel else {return}
+   textLabel.text = items[atIndex].text
+        
+}
+
 ```
+
+###Delegate methods
+```Swift
+     func circleMenu(circleMenu: CircleMenu, buttonWillSelected button: CircleMenuButton, atIndex: Int) {
+        print("button!!!!! will selected: \(atIndex)")
+    }
+    
+    func circleMenu(circleMenu: CircleMenu, buttonDidSelected button: CircleMenuButton, atIndex: Int) {
+        print("button!!!!! did selected: \(atIndex)")
+    }
+```
+
+##Acknowledgement
+Inspired by [circle-menu](https://github.com/fdzsergio/SFFocusViewLayout) and Pinterst
+
+Based on [circle-menu](https://github.com/fdzsergio/SFFocusViewLayout)
+
 
 
