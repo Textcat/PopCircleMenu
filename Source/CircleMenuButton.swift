@@ -22,11 +22,11 @@ public class CircleMenuButton: UIButton {
 
     internal var view = UIView()
 
-    internal weak var textLabel: UITextField?
+    public weak var textLabel: UITextField?
 
     // MARK: life cycle
 
-    init(size: CGSize, circleMenu: CircleMenu, distance: Float, angle: Float = 0, index: Int) {
+    init(size: CGSize, circleMenu: CircleMenu, distance: Float, angle: Float = 0, index: Int, rootView: UIView?) {
         super.init(frame: CGRect(origin: CGPoint(x: 0, y: 0), size: size))
 
         self.circleMenu = circleMenu
@@ -34,7 +34,7 @@ public class CircleMenuButton: UIButton {
         self.backgroundColor = UIColor(colorLiteralRed: 0.79, green: 0.24, blue: 0.27, alpha: 1)
         self.layer.cornerRadius = size.height / 2.0
 
-        let aContainer = createContainer(CGSize(width: size.width, height:CGFloat(distance)), circleMenu: circleMenu)
+        let aContainer = createContainer(CGSize(width: size.width, height:CGFloat(distance)), circleMenu: circleMenu, rootView: rootView)
 
         // hack view for rotate
         view = UIView(frame: CGRect(x: 0, y: 0, width: self.bounds.width, height: self.bounds.height))
@@ -69,9 +69,9 @@ public class CircleMenuButton: UIButton {
 
     // MARK: configure
 
-    private func createContainer(size: CGSize, circleMenu: CircleMenu) -> UIView {
+    private func createContainer(size: CGSize, circleMenu: CircleMenu, rootView: UIView?) -> UIView {
 
-        guard let circleMenuSuperView = circleMenu.superview else {
+        guard let circleMenuSuperView = rootView != nil ? rootView : circleMenu.superview else {
             fatalError("wront circle menu")
         }
 

@@ -1,2 +1,4 @@
 use_frameworks!
-pod ‘PopCircleMenu’, :git => 'https://github.com/luiyezheng/PopCircleMenu.git'
+target 'Example' do
+   pod ‘PopCircleMenu’, :path => '../'
+end

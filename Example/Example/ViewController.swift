@@ -9,7 +9,7 @@
 import UIKit
 import PopCircleMenu
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, CircleMenuDelegate {
     
     @IBOutlet var popMenuView: PopCirCleMenuView!
     
@@ -37,6 +37,8 @@ class ViewController: UIViewController {
         //Animation Duration
         popMenuView.circleButton?.duration = 0.8
         
+        popMenuView.circleButton?.rootView = self.view
+
         guard let button = popMenuView.circleButton else {return}
         button.layer.cornerRadius = button.bounds.size.width / 2.0
     }

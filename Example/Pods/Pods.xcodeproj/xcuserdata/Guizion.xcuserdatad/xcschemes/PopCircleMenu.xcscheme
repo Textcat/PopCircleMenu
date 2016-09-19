@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '484AF6A5ACE26C6CB31BD311'
-               BlueprintName = 'Pods'
+               BlueprintIdentifier = 'E0465AAC19F6BF9D1F0D9528EFF2DF93'
+               BlueprintName = 'PopCircleMenu'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods.framework'>
+               BuildableName = 'PopCircleMenu.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

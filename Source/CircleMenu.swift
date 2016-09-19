@@ -22,7 +22,7 @@ func Init<Type>(value: Type, @noescape block: (object: Type) -> Void) -> Type {
 /**
  *  CircleMenuDelegate
  */
-@objc public protocol CircleMenuDelegate {
+@objc public protocol CircleMenuDelegate: class {
 
     /**
      Tells the delegate the circle menu is about to draw a button for a particular index.
@@ -73,10 +73,12 @@ public class CircleMenu: UIButton {
     public var normalBorderColor: UIColor = UIColor.whiteColor()
 
     /// The object that acts as the delegate of the circle menu.
-    @IBOutlet weak public var delegate: AnyObject? //CircleMenuDelegate?
+    @IBOutlet public weak var delegate: CircleMenuDelegate?
 
     var buttons: [CircleMenuButton]?
 
+    public weak var rootView: UIView?
+    
     // MARK: life cycle
 
     /**
@@ -157,12 +159,12 @@ public class CircleMenu: UIButton {
         var buttons = [CircleMenuButton]()
 
         let step: Float = 360.0 / Float(self.buttonsCount)
-        for index in 0..<self.buttonsCount {
+        for index in 0 ..< self.buttonsCount {
 
             let angle: Float = (Float(index) * step) / 2.5
             let distance = Float(self.bounds.size.height/2.0)
             let size = CGSize(width: self.bounds.width, height: self.bounds.height)
-            let button = Init(CircleMenuButton(size: size, circleMenu: self, distance:distance, angle: angle, index: index)) {
+            let button = Init(CircleMenuButton(size: size, circleMenu: self, distance:distance, angle: angle, index: index, rootView: self.rootView)) {
                 $0.tag = index
                 $0.addTarget(self, action: #selector(CircleMenu.buttonHandler(_:)), forControlEvents: UIControlEvents.TouchDragExit)
                 $0.alpha = 0
